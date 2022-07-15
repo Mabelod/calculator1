@@ -1,6 +1,7 @@
 package proskyjavacourse2calculator.service;
 
 public interface CounterService {
+
      int addition (int a, int b);
 
      int subtraction(int a, int b);
