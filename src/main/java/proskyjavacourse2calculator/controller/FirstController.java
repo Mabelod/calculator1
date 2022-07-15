@@ -38,5 +38,4 @@ public class FirstController {
     public String division(@RequestParam("num1") String a, @RequestParam("num2") String b) {
         return a + " / " + b + " = " + counterService.division(Integer.parseInt(a), Integer.parseInt(b));
     }
-
 }

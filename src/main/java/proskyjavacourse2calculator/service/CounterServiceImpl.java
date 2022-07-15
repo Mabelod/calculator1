@@ -18,5 +18,6 @@ public class CounterServiceImpl implements CounterService {
 
     public int division(int a, int b) {
         return a / b;
+
     }
 }
